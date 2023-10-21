@@ -24,4 +24,5 @@ jobs:
     - name: npm install, build and test
       run: |
         npm install pnpm -g
-        pnpm install --prod
+        pnpm install
+        pnpm build
