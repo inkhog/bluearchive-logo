@@ -20,7 +20,7 @@ jobs:
 
     - name: npm install, build and test
       run: |
-        npm install pnpm
+        npm install pnpm -g
         pnpm install
         pnpm build --if-present
         pnpm test
