@@ -2,7 +2,7 @@ on:
   workflow_dispatch:
   pull_request:
     branches:
-    - main
+    - master
 
 
 jobs:
@@ -25,5 +25,5 @@ jobs:
       run: |
         npm install pnpm -g
         pnpm install
-        pnpm run build -r
+        pnpm run -r build
         pnpm run preview
