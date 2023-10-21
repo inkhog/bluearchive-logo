@@ -25,4 +25,5 @@ jobs:
       run: |
         npm install pnpm -g
         pnpm install
-        pnpm build
+        pnpm run build -r
+        pnpm run preview
